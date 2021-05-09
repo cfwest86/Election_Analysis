@@ -28,13 +28,13 @@ The above results show that:
   * Diana Degette recieved 272,892 votes or 73.8% of the total vote 
 * Winner: Diana Degette was the clear winner of the election 
 
-## Election Audit SUmmary 
+## Election Audit Summary 
 
 Repurposing of the Python code created for this assignment could prove fairly valuable for future elections. For instance, the code could easily be applied to a larger statewide election. As long as election data is provided in a csv file, we can easily change the file_to_load = os.path.join ( ) to what and where the new election data files are named and stored. 
 
 ![indexs of county code](https://user-images.githubusercontent.com/81761879/117582821-ea455d80-b0d1-11eb-8aa7-dce88b5514e9.PNG)
 
-Indeed, as shown in the code snippet above, even if these new csv files changed the columns the county and candidate information is stored, we could very easily change the index for each of these variables and achieve the same output as the results of this audit. 
+Indeed, as shown in the code snippet above, even if these new csv files changed the columns the county and candidate information is stored, we could very easily change the index for each of these variables to match where this new data was stored, and achieve the same output as the results of this audit. 
 
 ![for loop](https://user-images.githubusercontent.com/81761879/117583009-dfd79380-b0d2-11eb-90fb-80dfa1fabce7.PNG)
 
@@ -44,9 +44,3 @@ Similarly, because we use a for loop to compile total vote counts, as shown abov
 Repurposing the code in this way could save the state valuable resources in both time and money in future elections. 
 
 
-
-
-
-
-
-* 
